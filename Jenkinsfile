@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'feature', url: 'https://github.com/gowtham4s/terraform-jenkins-pipeline.git'
+                git branch: 'feature', url: 'https://github.com/pmohd6065-ux/terraform-jenkins-pipeline.git'
             }
         }
 
@@ -25,5 +25,6 @@ pipeline {
         }
     }
 }
+
 
 
